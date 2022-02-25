@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="container">
+        
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription en ligne </title>
+</head>
+<body>
+    <form action="./presentation.html" method="post" name="inscri">
+    <fieldset>
+        <legend> Information personels </legend>
+        
+            <label for="pname">Votre nom</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="pname">Votre prénom</label>
+            <input type="text" id="pname" name="pname"><br>
+            <label for="age">Votre age</label>
+            <input type="text" id="age" name="age"><br>
+            <label for="adr">Votre adresse</label>  
+            <textarea name="adr" id="adr" cols="10" rows="5"></textarea><br>
+            <label for="PASS">Mot de passe</label>
+            <input type="password" id="pass" name="pass"><br>
+            <label for="PASSC">repeter votre mot de passe</label>
+            <input type="password" id="passC" name="passC"><br>
+        
+    </fieldset>
+    <fieldset>
+        <legend> Gestion des groupes et des options</legend>
+        <label for="groupe">Votre groupe</label><br>
+        <input type="radio" id="grp1" name="grp1" value="Groupe 1">
+        <label for="grp1">Groupe 1</label><br>
+        <input type="radio" id="grp2" name="grp2" value="Groupe 2">
+        <label for="grp2">Groupe 2</label><br>
+        <input type="radio" id="grp3" name="grp3" value="Groupe 3">
+        <label for="grp3">Groupe 3</label><br>
+        <label for="nCE">Numéro de carte d'etudiant </label> 
+        <input type="text" id="nCE" name="nCE" value="votre numéro de carte d'etudiant ?" size="30"><br>
+        <label for="option">Choisissez les options que vous désirez</label>
+        <select name="option" id="option">
+            <option value="web">web</option>
+            <option value="web">web</option>
+            <option value="web">web</option>
+            <option value="web">web</option>
+            <option value="web">web</option>
+        </select>
+    </fieldset>
+        <div class="botons">
+            <input type="submit" vlaue="validé">
+            <input type="reset" value="reset">
+        </div>
+        
+    </form>
+    </div>
+</body>
+</html>

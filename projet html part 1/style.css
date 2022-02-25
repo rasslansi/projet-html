@@ -1,0 +1,96 @@
+html{
+    font-size: 16px;
+}
+.title{
+    font-family: Courier,gotham,roboto,arial;
+    text-align: center;
+    color: rgb(32, 133, 32);
+    margin-bottom: 2em;
+    font-weight:bold;
+    font-size: 2.25rem;
+    word-wrap: break-word;
+
+}
+.desc{
+color: rgb(0, 0, 0);
+text-align:center;
+font-family: roboto;
+line-height: 1.75em;
+font-weight: 400;
+font-size: 1rem;
+}
+
+.card1{
+    
+    min-width: 60%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    box-shadow: 0px 3px 6px rgb(102, 102, 102);
+    margin: 3em;
+    padding: 2.5em;
+    border-radius: 20px;
+}
+.card2{
+    min-width: 60%;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    box-shadow: 0px 3px 6px rgb(102, 102, 102);
+    margin: 3em;
+    padding: 2.5em;
+    border-radius: 20px;
+}
+.card3{
+    min-width: 60%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 2;
+    box-shadow: 0px 3px 6px rgb(102, 102, 102);
+    margin: 3em;
+    padding: 2.5em;
+    border-radius: 20px;
+}
+.cards hr {
+    border-width: 3px;
+    width: 90%;
+}
+.cards #date{
+    text-align: right;
+    margin-right: 5%;
+    font-style: italic;
+}
+
+@media only screen and (max-width:700px) {
+    .card1{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        box-shadow: 0px 3px 6px rgb(102, 102, 102);
+        margin:20px;
+        padding: 2.5em;
+        border-radius: 20px;
+       
+    }
+    .card2{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        box-shadow: 0px 3px 6px rgb(102, 102, 102);
+        margin:20px;
+        padding: 2.5em;
+        border-radius: 20px;
+    }
+    .card3{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 3;
+        box-shadow: 0px 3px 6px rgb(102, 102, 102);
+        margin: 20px;
+        padding: 2.5em;
+        border-radius: 20px;
+    }
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+}

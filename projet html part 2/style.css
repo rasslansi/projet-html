@@ -1,0 +1,22 @@
+label, input {
+    margin: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.botons{
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.presentation{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
